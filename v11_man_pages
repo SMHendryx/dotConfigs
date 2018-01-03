@@ -1,0 +1,3 @@
+export SRC_DIR='/work/seanmhendryx/src/'
+export MANPATH='/work/vision/doc/man'
+export MANPATH=$MANPATH:/work/seanmhendryx/ivilab/doc/man

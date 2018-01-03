@@ -1,0 +1,17 @@
+ForwardAgent yes
+
+Host york
+	HostName york.cs.arizona.edu
+
+Host lectura
+	HostName lectura.cs.arizona.edu
+
+Host v11
+	ProxyCommand ssh seanmhendryx@york.cs.arizona.edu exec nc %h %p
+	User seanmhendryx
+
+Host vision vision.cs.arizona.edu
+    #HostName vision.cs.arizona.edu
+    ProxyCommand ssh york exec nc %h %p
+
+
